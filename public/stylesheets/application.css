@@ -1,0 +1,913 @@
+/* ============================================================ */
+/* = GENERAL STYLES                                           = */
+/* ============================================================ */
+
+body {
+	background:  0px 0px scroll #000;
+	font-family: "Helvetica Neue", Helvetica, Geneva, sans-serif;
+  color: #333;
+  font-size: 85%;
+  height: 100%;
+}
+body, div, h1, h2, h3, h4, h5, h6, p, ul, img {
+	margin: 0px; 
+	padding: 0px;
+}
+a {
+	color: #fff;
+	outline: none;
+	text-decoration: none;
+	display: block;
+}
+a:hover {
+	color: #fff;
+	outline: none;
+	text-decoration: underline;
+	list-style: none;
+}
+a:active {
+	outline: none;
+	text-decoration: none;
+}
+a:visited {
+	outline: none;
+	text-decoration: none;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
+.link {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.clear {
+	clear: both;
+}
+#wrapper {
+  background:none repeat scroll 0 0 #000;
+  margin:0 auto;
+  width:960px;
+/*  border-left:4px solid #78593D;
+  border-right:4px solid #78593D;
+  border-bottom:4px solid #78593D;*/
+  margin:0 auto;
+  -moz-box-shadow: 0px 1px 2px #000;
+	-webkit-box-shadow: 0px 1px 2px #000;
+	box-shadow: 0px 1px 2px #000;
+}
+
+/* ============================================================ */
+/* = HEADER STYLES                                            = */
+/* ============================================================ */
+#mast_header {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+#header	{
+	height: 125px;
+	border-bottom: 6px solid #000000;
+}
+#logo {
+	background: #000 url("../images/logo_header.png") no-repeat;
+	height: 125px;
+	margin: 0 auto;
+	position: relative;
+	text-indent: -9999em;
+	width: 960px;
+}
+#logo a {
+	height: 100px;
+	margin-left: 0;
+	padding-top: 18px;
+	text-indent: -9999em;
+	width: 267px;
+}
+#logo h1	{
+	text-indent: -9999em;
+	margin-top: 15px;
+}
+/* ============================================================ */
+/* = BANNER STYLES                                            = */
+/* ============================================================ */
+/*#mast_banner {
+  background: #111;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #804517;
+  border-bottom: 1px solid #804517;
+}
+#mast_banner_portfolio {
+  background: none repeat scroll 0 0 #111111;
+  border-bottom: 1px solid #804517;
+  border-top: 1px solid #804517;
+  float: left;
+  min-height: 900px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+#mast_banner_service {
+  background: none repeat scroll 0 0 #111111;
+  border-bottom: 1px solid #804517;
+  border-top: 1px solid #804517;
+  float: left;
+  height: 100%;
+  min-height: 1025px;
+  position: relative;
+  width: 100%;
+}*/
+#menu	{
+	height: 35px;
+	margin: 0 auto;
+	width: 475px;
+	padding-top: 15px;
+}
+#menu ul {
+	height: 20px;
+	padding-bottom: 15px;
+	width: 500px;
+}
+#menu ul li {
+	height: 20px;
+	width: 95px;
+	float: left;
+	position: relative;
+	list-style: none;
+	text-align: center;
+	background: #111 url('../images/nav_bkgnd.png')0px 0px no-repeat;
+	padding-right: 5px;
+}
+#menu ul li a {
+	color: #fff;
+}
+#menu ul li a:hover {
+	color: #DF7A29;
+	text-decoration: none;
+}
+#banner {
+	min-height: 700px;
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+	text-align: center;
+	width: 960px;
+	padding: 25px 0;
+}
+#video_banner {
+	min-height: 700px;
+	height: 100%;
+	margin-left: 83px;
+	position: relative;
+	text-align: center;
+	width: 960px;
+	padding: 25px 0;
+}
+#banner h2.tagline {
+	color: #000000;
+	float: left;
+	font-style: italic;
+	width: 100%;
+	font-size: 13px;
+	height: 30px;
+	color: #fff;
+}
+#video_banner h2.video_header {
+	color: #000000;
+	float: left;
+	font-style: italic;
+	width: 100%;
+	font-size: 13px;
+	height: 30px;
+	color: #fff;
+	margin-right: 83px;
+}
+
+/* ============================================================ */
+/* = INDEX BANNER STYLES                                      = */
+/* ============================================================ */
+
+#index_banner {
+	min-height: 700px;
+	height: 100%;
+	margin: 0px auto;
+	position: relative;
+	text-align: center;
+	width: 960px;
+	padding: 25px 0;
+	background: url(../images/banner_bg.png) no-repeat 0px 0px transparent;
+}
+#index_banner img {
+  width: 800px;
+  height: 532px;
+  padding: 5px;
+  border: 1px solid #DF7A29;
+  margin-top: 60px;
+}
+
+/* ============================================================ */
+/* = ABOUT BANNER STYLES                                      = */
+/* ============================================================ */
+
+#banner #about_left {
+float: left;
+position: relative;
+width: 50%;
+}
+#banner #about_right {
+  float: left;
+  position: relative;
+  width: 380px;
+  text-align: center;
+  height: 575px;
+}
+#banner #about_right h2 {
+  padding: 5px;
+  background: #111 url('../images/about_header.png') 0px 0px no-repeat;
+  text-indent: -3333em;
+  margin: 50px 0px 20px 0px;
+  width: 200px;
+}
+#banner #about_right p {
+  text-align: justify;
+  color: #999;
+  font-size: 14px;
+  margin-top: 20px;
+}
+#banner #about_right p a {
+  color: #DF7A29;
+  position: relative;
+  width: 139px;
+  display: inline;
+  text-decoration: none;
+}
+#banner #about_right p a:hover {
+  color: #fff;
+  position: relative;
+  width: 139px;
+  display: inline;
+  text-decoration: none;
+}
+
+/* ============================================================ */
+/* = PORTFOLIO BANNER STYLES                                  = */
+/* ============================================================ */
+
+#banner h2.commercial_header {
+  background:url("../images/port_commercial_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#banner h2.event_header {
+  background:url("../images/port_event_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#banner h2.landscape_header {
+  background:url("../images/port_landscape_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#banner h2.project_header {
+  background:url("../images/port_video_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#banner h2.people_header {
+  background:url("../images/port_people_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#banner h2.realestate_header {
+  background:url("../images/port_realestate_header.png") no-repeat scroll 0 0 transparent;
+  color:#FFFFFF;
+  font-size:24px;
+  height:50px;
+  text-indent:-9999em;
+  width:310px;
+  margin: 30px auto 15px;
+}
+#port_index_left, #port_index_center, #port_index_right,#port_bottom_left, #port_bottom_center, #port_bottom_right {
+	float: left;
+	position: relative;
+	width: 320px;
+	margin-top: 20px;
+} 
+#port_index_left img, #port_index_center img, #port_index_right img,#port_bottom_left img, #port_bottom_center img, #port_bottom_right img {
+	padding: 5px;
+	border: 1px solid #804517;
+	background: #000;
+}
+#port_index_left ul, #port_index_center ul, #port_index_right ul, #port_bottom_left ul, #port_bottom_center ul, #port_bottom_right ul {
+	width: 320px;
+}
+#port_index_left ul li, #port_index_center ul li, #port_index_right ul li, #port_bottom_left ul li, #port_bottom_center ul li, #port_bottom_right ul li {
+	list-style: none;
+	width: 320px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+#port_index_left ul li a, #port_index_center ul li a, #port_index_right ul li a, #port_bottom_left ul li a, #port_bottom_center ul li a, #port_bottom_right ul li a {
+	display: block;
+	width: 200px;
+	margin: 0px auto;
+	height: 35px;
+	text-indent: -3333em;
+}
+#port_index_left ul li#nav1 a {
+	background: transparent url('../images/commercial_nav.png') center 0px no-repeat;
+}
+#port_index_left ul li#nav1 a:hover {
+	background: transparent url('../images/commercial_nav.png') center -35px no-repeat;
+}
+#port_index_center ul li#nav2 a {
+	background: transparent url('../images/people_nav.png') center 0px no-repeat;
+}
+#port_index_center ul li#nav2 a:hover {
+	background: transparent url('../images/people_nav.png') center -35px no-repeat;
+}
+#port_index_right ul li#nav3 a {
+	background: transparent url('../images/event_nav.png') center 0px no-repeat;
+}
+#port_index_right ul li#nav3 a:hover {
+	background: transparent url('../images/event_nav.png') center -35px no-repeat;
+}
+#port_bottom_left ul li#nav4 a {
+	background: transparent url('../images/landscape_nav.png') center 0px no-repeat;
+}
+#port_bottom_left ul li#nav4 a:hover {
+	background: transparent url('../images/landscape_nav.png') center -35px no-repeat;
+}
+#port_bottom_center ul li#nav5 a {
+	background: transparent url('../images/real_estate_nav.png') center 0px no-repeat;
+}
+#port_bottom_center ul li#nav5 a:hover {
+	background: transparent url('../images/real_estate_nav.png') center -35px no-repeat;
+}
+#port_bottom_right ul li#nav6 a {
+	background: transparent url('../images/video_nav.png') center 0px no-repeat;
+}
+#port_bottom_right ul li#nav6 a:hover {
+	background: transparent url('../images/video_nav.png') center -35px no-repeat;
+}
+
+/* ============================================================ */
+/* = SERVICE BANNER STYLES                                    = */
+/* ============================================================ */
+#banner .service h2.svc1, #banner .service h2.svc2, #banner .service h2.svc3, #banner .service h2.svc4, #banner .service h2.svc5, #banner .service h2.svc6, #banner .service h2.svc7, #banner .service h2.svc8 {
+	width: 223px;
+	height: 35px;
+	position: relative;
+	float: left;
+	text-indent: -3333em;
+}
+#service_left {
+	width: 420px;
+	position: relative;
+	float: left;
+	padding-left: 60px;
+}
+#service_right {
+	width: 460px;
+	position: relative;
+	float: left;
+	padding-left: 20px;
+}
+#banner .service {
+	position: relative;
+	float: left;
+}
+#banner .service h2.svc1 {
+	background: transparent url('../images/service_commercial_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc2 {
+	background: transparent url('../images/service_portrait_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc3 {
+	background: transparent url('../images/service_events_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc4 {
+	background: transparent url('../images/service_wedding_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc5 {
+	background: transparent url('../images/service_engagement_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc6 {
+	background: transparent url('../images/service_real_estate_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc7 {
+	background: transparent url('../images/service_fine_art_header.png') 0px 0px no-repeat;
+}
+#banner .service h2.svc8 {
+	background: transparent url('../images/service_video_header.png') 0px 0px no-repeat;
+}
+#banner .service img {
+	width: 128px;
+	height: 200px;
+	position: relative;
+	float: left;
+	padding: 5px;
+	border: 1px solid #804517;
+	background: #000;
+	margin: 0px 25px 20px 0px;
+}
+#banner .service p {
+	width: 223px;
+	height: 200px;
+	color: #999;
+	text-align: justify;
+	position: relative;
+	float: left;
+}
+#banner .service_price {
+	position: relative;
+	float: left;
+	margin-top: 5px;
+	color: #fefefe;
+}
+
+/* ============================================================ */
+/* = CONTACT BANNER STYLES                                    = */
+/* ============================================================ */
+
+#contact_left {
+	width: 480px;
+	height: 560px;
+	position: relative;
+	float: left;
+}
+#contact_right {
+	width: 480px ;
+	height: 500px;
+	position: relative;
+	float: left;
+}
+#contact_right img {
+  border:1px solid #804517;
+  margin-right:50px;
+  margin-top: 125px;
+  padding:5px;
+}
+#main_content #left {
+	background: #000;
+}
+#content {
+	background: #E7E7E7;
+	border-color: #000 #003648 #003648;
+	border-style: solid;
+	border-width: 1px 1px 1px;
+	min-height: 400px;
+	margin:0px auto;
+	position: relative;
+	text-align: center;
+	width: 960px;
+}
+#contact_left h2.index_heading {
+	background: url("../images/index_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 60px 0 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left h2.about_heading {
+	background: url("../images/about_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 60px 0 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left h2.services_heading {
+	background: url("../images/services_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 60px 0 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left h2.contact_heading {
+	background: url("../images/contact_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 10px 0 0px 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left h2.projects_heading {
+	background: url("../images/projects_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 60px 0 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left h2.thank_you_heading {
+	background: url("../images/thanks_header.png") no-repeat scroll 0 0 transparent;
+	height: 45px;
+	margin: 60px 0 20px;
+	position: relative;
+	text-align: left;
+	text-indent: -3000em;
+	width: 385px;
+}
+#contact_left p {
+	margin-bottom: 15px;
+	text-align: justify;
+	width: 575px;
+}
+#contact_left p.thanks {
+	margin-top: 45px;
+	text-align: justify;
+	width: 575px;
+	font-size: 25px;
+}
+#contact_left h3 {
+	text-align: left;
+	font-style: italic;
+	font-size: 14px;
+}
+#contact_left a {
+	color: #003648;
+	display: inline;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#contact_left a:hover {
+	text-decoration: none;
+}
+#contact_left form {
+	margin-left: 60px;
+	margin-bottom: 20px;
+	width: 350px;
+	float: left;
+}
+#contact_left label {
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	margin-left: 35px;
+	margin-top: 25px;
+	margin-bottom: 3px;
+	position: relative;
+	text-align: left;
+	width: 100%;
+}
+#contact_left input {
+	border: 1px solid #804517;
+	background: url('../images/form_input_bkgnd.png') 0px 0px no-repeat;
+	float: left;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: 5px;
+	position: relative;
+	text-align: left;
+	width: 250px;
+	padding-left: 3px;
+	color: #fff;
+}
+#contact_left textarea {
+	background: url('../images/text_area.png') 0px 0px no-repeat;
+	border: 1px solid #804517;
+	float: left;
+	margin-left: 30px;
+	margin-top: 5px;
+	position: relative;
+	text-align: left;
+	width: 250px;
+	color: #fff;
+	padding: 3px;
+}
+#contact_left div.form_field {
+	width: 100%;
+	height: 35px;
+	text-align: left;
+	position: relative;
+	float: left;
+}
+#contact_left div.form_field_text {
+	float: left;
+	height: 120px;
+	position: relative;
+	text-align: left;
+
+}
+#contact_left div.form_field_select {
+	width: 100%;
+	height: 55px;
+	text-align: left;
+	position: relative;
+	float: left;
+	margin-bottom: 30px;
+}
+#contact_left div.form_field_button {
+	height: 50px;
+	width: 100%;
+}
+#contact_left div.error {
+	position: relative;
+	color: #FF0000;
+	float: left;
+	margin-left: 32px;
+	margin-top: 5px;
+	text-align: left;
+	width: 440px;
+}
+#contact_left select {
+	border: 1px solid #804517;
+	position: relative;
+	float: left;
+	height: 25px;
+	margin-left: 30px;
+	margin-top: 5px;
+	padding: 3px;
+	width: 250px;
+	background: url('../images/form_input_bkgnd.png') 0px 0px no-repeat;
+	color: #fff;
+}
+#contact_left textarea {
+	position: relative;
+	float: left;
+	margin-left:30px;
+	margin-top:5px;
+}
+#contact_left .btn {
+	background: url('../images/form_btn.png') 0px 0px no-repeat;
+	border: 1px solid #804517;
+	display: block;
+	float: left;
+	height: 30px;
+	margin-left: 30px;
+	position: relative;
+	text-align: center;
+	width: 70px;
+	color: #fff;
+}
+#contact_left .btn:hover {
+	background: url('../images/form_btn_hover.png') 0px 0px no-repeat;
+	border: 1px solid #804517;
+	float: left;
+	height: 30px;
+	margin-left: 30px;
+	position: relative;
+	text-align: center;
+	width: 70px;
+	display: block;
+	color: #fff;
+}
+
+/* ============================================================ */
+/* =  LANDING PAGE STYLES                                     = */
+/* ============================================================ */
+
+#thank_left {
+	width: 480px;
+	position: relative;
+	float: left;
+}
+
+#thank_right {
+	width: 480px;
+	position: relative;
+	float: left;
+}
+#thank_right h2 {
+	text-indent: -3333em;
+	width: 480px;
+	height: 475px;
+	background: url('../images/thank_you_text.png') 0px 0px no-repeat;
+}
+
+/* ============================================================ */
+/* =  FOOTER STYLES                                           = */
+/* ============================================================ */
+
+#mast_footer {
+	background: #000;
+	height: 99px;
+}
+#footer {
+	background: url('../images/footer_bkgnd.png') no-repeat #000;
+	height: 99px;
+	margin: 0 auto;
+	text-align: center;
+	width: 960px;
+	position: bottom;
+}
+#copyright {
+	width: 100px;
+	height: 20px;
+	color: #003648;
+}
+#footer_menu {
+  float:left;
+  height:15px;
+  margin-top:35px;
+  position:relative;
+  width:560px;
+}
+#footer_menu ul {
+	height: 20px;
+	padding-bottom: 15px;
+	width: 500px;
+}
+#footer_menu ul li {
+	height: 20px;
+	width: 95px;
+	position: relative;
+	list-style: none;
+	float: left;
+}
+#footer_menu ul li a {
+	color: #fefefe;
+	font-size: 12px;
+}
+#footer_menu ul li a:hover {
+	color: #DF7A29;
+	text-decoration: none;
+}
+
+#footer .c2link {
+  float:right;
+  font-size:12px;
+  margin-right:20px;
+  margin-top:35px;
+  position:relative;
+  text-align:center;
+}
+#footer .facebook {
+  background:url("../images/facebook.png") no-repeat scroll 0 0 transparent;
+  float:right;
+  height:40px;
+  margin-top:20px;
+  text-indent:-9999em;
+  width:50px;
+}
+#footer .facebook a {
+  width: 50px;
+  height: 40px;
+  display: block;
+}
+#footer .twitter {
+  background:url("../images/twitter.png") no-repeat scroll 0 0 transparent;
+  float:right;
+  height:40px;
+  margin-top:23px;
+  text-indent:-9999em;
+  width:50px;
+}
+#footer .twitter a {
+  width: 50px;
+  height: 40px;
+  display: block;
+}
+#footer .c2link a {
+	color: #fefefe;
+}
+#footer .c2link a:hover {
+	color: #DF7A29;
+	text-decoration: none;
+}
+.clear {
+	clear: both;
+}
+
+/* ================================================================= */
+/* = scroll slider style                                           = */
+/* ================================================================= */
+
+/*--Main Container--*/
+.main_view {
+	float: left;
+	position: relative;
+	padding-left: 80px;
+	
+}
+/*--Window/Masking Styles--*/
+.window {
+	height:604px;	width: 812px;
+	overflow: hidden; /*--Hides anything outside of the set width/height--*/
+	position: relative;
+}
+.image_reel {
+	position: absolute;
+	top: 0; left: 0;
+}
+.image_reel img {float: left;}
+
+/*--Paging Styles--*/
+.paging {
+	position: absolute;
+	bottom: -47px; right: 266px;
+	width: 178px; height:47px;
+	z-index: 100; /*--Assures the paging stays on the top layer--*/
+	text-align: center;
+	line-height: 7px;
+	display: none; /*--Hidden by default, will be later shown with jQuery--*/
+}
+.paging a {
+	padding: 5px;
+	text-decoration: none;
+	color: #DF7A29;
+	float:left;
+
+}
+.paging a.active {
+	font-weight: bold;
+	color: #fff;
+  background: #000;
+  height: 07px;
+/*  border: 1px solid #610000;*/
+/*  -moz-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  -webkit-border-radius: 3px;*/
+}
+.paging a:hover {font-weight: bold;}
+
+/* ===================================================== */
+/* = GALLERY IMAGE STYLES                              = */
+/* ===================================================== */
+
+.gallery .clearfix img {
+  float: left;
+}
+/********************************************************************************************/
+/*********************************************************************** OVERLAY ************/
+/*/* overlay size and background image */ 
+div.overlay { 
+	position: relative;
+	width:512px; 
+	height:288px; 
+	background: url(../images/overlay/apple.png) -45px -45px no-repeat; 
+	display:none; 
+	padding: 0 !important; 
+} 
+ 
+/* close button for overlay */ 
+div.overlay a.close { 
+	background: url(../images/overlay/apple-close.png) no-repeat; 
+	position:absolute; 
+	right:-21px;
+	top:-11px;
+	width:35px;
+	z-index:11000;
+	height: 35px; 
+	cursor:pointer;
+	display: block;
+}
+ 
+/* original size of the player */ 
+#vidbox, #vidbox embed, #vidbox object { 
+  height:288px;
+  left:0px;
+  position:absolute;
+  top:0px;
+  width:512px;
+} 
+ 
+/* absolute positioning of the player */ 
+#vidbox embed, #vidbox object { 
+	position:relative; 
+	/* layer as the topmost element */ 
+	z-index:10000; 
+}*/
+
+/* styling for elements inside overlay */ 
+.details { 
+	position:absolute; 
+	top:15px; 
+	right:15px; 
+	font-size:11px; 
+	color:#fff; 
+	width:150px; 
+}
