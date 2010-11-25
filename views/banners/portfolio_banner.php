@@ -1,11 +1,9 @@
-
 <div id="port_index_left">
 	<ul>
 		<li id="nav1"><a href="commercial.php">Commercial</a></li>
 	</ul>
 	<a href="commercial.php"><img src="public/images/portfolio_commercial.jpg"></a>
 </div >
-
 
 <div id="port_index_center">
 	<ul>
