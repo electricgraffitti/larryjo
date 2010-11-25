@@ -58,6 +58,7 @@ var lightbox = {
 
     //On Click
     $(".paging a").click(function(e) {
+
       $active = $(this); //Activate the clicked paging
       //Reset Timer
       clearInterval(play); //Stop the rotation
